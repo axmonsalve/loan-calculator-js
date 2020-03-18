@@ -15,6 +15,12 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <style>
+      #loading,
+      #results {
+        display: none;
+      }
+    </style>
 
     <title>Loan Calculator JS</title>
   </head>
@@ -71,9 +77,9 @@
               </div>
             </form>
             <!--LOADER-->
-            <!-- <div id="loading">
-              <img src="img/loading.gif" alt="">
-            </div> -->
+            <div id="loading">
+              <img src="img/loading.gif" alt="" />
+            </div>
             <!--RESULTS-->
             <div id="results" class="pt-4">
               <h5 class=" mb-4">Results</h5>
